@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Null.MusicDownloader": {
+      "commandName": "Project",
+      "commandLineArgs": "DownloadMusic Id=48958847 Path=\"C:\\Users\\Null\\Desktop\\qwq.mp3\""
+    }
+  }
+}

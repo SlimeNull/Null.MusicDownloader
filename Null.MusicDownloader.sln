@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.MusicDownloader", "Null.MusicDownloader\Null.MusicDownloader.csproj", "{457D1B0B-71D1-4535-A345-91990ACDD113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null.MusicDownloader", "Null.MusicDownloader\Null.MusicDownloader.csproj", "{457D1B0B-71D1-4535-A345-91990ACDD113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.MusicDownloader.Public", "Null.MusicDownloader.Public\Null.MusicDownloader.Public.csproj", "{940AB1AC-9447-42A2-9DB3-FB78600AA3C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null.MusicDownloader.Public", "Null.MusicDownloader.Public\Null.MusicDownloader.Public.csproj", "{940AB1AC-9447-42A2-9DB3-FB78600AA3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.MusicDownloader.Source.Kuwo", "Null.MusicDownloader.Source.Kuwo\Null.MusicDownloader.Source.Kuwo.csproj", "{F1877706-3CEA-4D8D-B0FC-7C3F1DB78518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null.MusicDownloader.Source.Kuwo", "Null.MusicDownloader.Source.Kuwo\Null.MusicDownloader.Source.Kuwo.csproj", "{F1877706-3CEA-4D8D-B0FC-7C3F1DB78518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null.MusicDownloader.Source.Netease", "Null.MusicDownloader.Source.Netease\Null.MusicDownloader.Source.Netease.csproj", "{3755D7C8-B528-44D0-A2A1-88E47FB1A36C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Null.MusicDownloader.Source.Qq", "Null.MusicDownloader.Source.QQ\Null.MusicDownloader.Source.Qq.csproj", "{E86A33E4-540B-4FFB-84D7-D3B53678AEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.MusicDownloader.Client.Wpf", "Null.MusicDownloader.Client.Wpf\Null.MusicDownloader.Client.Wpf.csproj", "{49E75060-44EE-484E-91C0-CC9B7CC33977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullLib.ConsoleTable", "..\NullLib.ConsoleTable\NullLib.ConsoleTable\NullLib.ConsoleTable.csproj", "{A9729A05-FB92-4630-9B9C-D9B01B4C949E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.MusicDownloader.Source.Kugou", "Null.MusicDownloader.Source.Kugou\Null.MusicDownloader.Source.Kugou.csproj", "{3B765AB6-051C-4C69-B769-F9D4A3E30FDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{F1877706-3CEA-4D8D-B0FC-7C3F1DB78518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1877706-3CEA-4D8D-B0FC-7C3F1DB78518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1877706-3CEA-4D8D-B0FC-7C3F1DB78518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3755D7C8-B528-44D0-A2A1-88E47FB1A36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3755D7C8-B528-44D0-A2A1-88E47FB1A36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3755D7C8-B528-44D0-A2A1-88E47FB1A36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3755D7C8-B528-44D0-A2A1-88E47FB1A36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86A33E4-540B-4FFB-84D7-D3B53678AEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86A33E4-540B-4FFB-84D7-D3B53678AEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86A33E4-540B-4FFB-84D7-D3B53678AEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86A33E4-540B-4FFB-84D7-D3B53678AEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E75060-44EE-484E-91C0-CC9B7CC33977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E75060-44EE-484E-91C0-CC9B7CC33977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E75060-44EE-484E-91C0-CC9B7CC33977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E75060-44EE-484E-91C0-CC9B7CC33977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9729A05-FB92-4630-9B9C-D9B01B4C949E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9729A05-FB92-4630-9B9C-D9B01B4C949E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9729A05-FB92-4630-9B9C-D9B01B4C949E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9729A05-FB92-4630-9B9C-D9B01B4C949E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B765AB6-051C-4C69-B769-F9D4A3E30FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B765AB6-051C-4C69-B769-F9D4A3E30FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B765AB6-051C-4C69-B769-F9D4A3E30FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B765AB6-051C-4C69-B769-F9D4A3E30FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

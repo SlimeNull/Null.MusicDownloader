@@ -21,7 +21,6 @@ namespace Null.MusicDownloader.Public
         IMvInfo RequestMvInfo(string id);
         IPlaylistInfo RequestPlaylistInfo(string id);
 
-        //void RequestCookie();
-        //Stream DownloadMusic(IMusicInfo music);
+        Stream DownloadMusic(IMusicInfo music);
     }
 }

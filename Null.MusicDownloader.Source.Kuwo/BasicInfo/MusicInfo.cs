@@ -52,6 +52,6 @@ namespace Null.MusicDownloader.Source.Kuwo.BasicInfo
         public string ArtistId => artistid.ToString();
         public string MusicCoverUrl => pic;
         public string AlbumCoverUrl => albumpic;
-        public string MusicDuration => TimeSpan.FromSeconds(duration).ToString("mm:ss");
+        public string MusicDuration => songTimeMinutes;
     }
 }

@@ -6,12 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NullLib.ArgsParser" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\NullLib.ConsoleTable\NullLib.ConsoleTable\NullLib.ConsoleTable.csproj" />
     <ProjectReference Include="..\Null.MusicDownloader.Public\Null.MusicDownloader.Public.csproj" />
     <ProjectReference Include="..\Null.MusicDownloader.Source.Kuwo\Null.MusicDownloader.Source.Kuwo.csproj" />
+    <ProjectReference Include="..\Null.MusicDownloader.Source.Netease\Null.MusicDownloader.Source.Netease.csproj" />
+    <ProjectReference Include="..\Null.MusicDownloader.Source.QQ\Null.MusicDownloader.Source.Qq.csproj" />
   </ItemGroup>
 
 </Project>
